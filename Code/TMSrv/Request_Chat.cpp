@@ -4,6 +4,7 @@ void _geral(MSG_MessageChat* m)
 {
 	//cade as alteração+
 	//porraaaaaaaaaaaaaaaaaaa
+	//nova att
 	m->String[MESSAGE_LENGTH - 1] = 0;
 	m->String[MESSAGE_LENGTH - 2] = 0;
 
