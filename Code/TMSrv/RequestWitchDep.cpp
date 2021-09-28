@@ -29,7 +29,7 @@ bool CUser::RequestDeposit(MSG_HEADER* pMsg)
 
 		if (tcoin >= 0 && tcoin <= 2000000000)
 		{
-			mob->MOB.Coin -= coin;
+			mob->MOB.Coin -= coin;//moeda
 			this->Coin = tcoin;
 			m->ID = ESCENE_FIELD;
 

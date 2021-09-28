@@ -2,12 +2,8 @@
 
 void _geral(MSG_MessageChat* m)
 {
-	/*if (BrState && m->ID < MAX_USER && BRItem > 0)
-	{
-		if (CheckCord(m->ID, 2604, 1708, 2648, 1744) || CheckCord(m->ID, 896, 1405, 1150, 1538))
-			strncpy(m->String, "??????", 6);
-	}*/
-
+	//cade as alteração+
+	//porraaaaaaaaaaaaaaaaaaa
 	m->String[MESSAGE_LENGTH - 1] = 0;
 	m->String[MESSAGE_LENGTH - 2] = 0;
 
@@ -23,7 +19,7 @@ void _geral(MSG_MessageChat* m)
 		if (!mob)
 			return;
 
-		if (user->Mode == USER_PLAY)
+		if (user->Mode == USER_PLAY) 
 		{
 			int leader = mob->Leader;
 			if (!leader)
@@ -39,6 +35,8 @@ void _geral(MSG_MessageChat* m)
 
 		cLog.Write(0, TL::Pakt, std::format("{} chat, {} : {}", user->AccountName, mob->MOB.MobName, m->String));
 	}
+	else
+		cLog.Write(0, TL::Pakt, std::format("fodase"));
 }
 
 void CUser::RequestChat(MSG_HEADER* pMsg)
