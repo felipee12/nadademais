@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Base">
+      <UniqueIdentifier>{8c9a3df8-2c8e-4d97-a51e-20389ecd101c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets">
+      <UniqueIdentifier>{9b4c4da2-6496-4c03-b280-79247aeeded3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OffWord">
+      <UniqueIdentifier>{2de14415-f1a7-4900-a638-cb85f76764fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord">
+      <UniqueIdentifier>{8f8d5dd1-6c37-4884-8671-4355c17b127b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\Action">
+      <UniqueIdentifier>{af613a68-6234-4a29-a31d-13626245d1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Func">
+      <UniqueIdentifier>{95b42611-3681-4a30-9a40-159a692b05d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\Shop">
+      <UniqueIdentifier>{780038b6-427c-43f9-8b00-3a04d8ec80c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\Bank">
+      <UniqueIdentifier>{21f9c212-279d-4d89-a570-1e5f94eeb2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\Item">
+      <UniqueIdentifier>{28a8b697-323a-46ea-87ba-7ec72a52358b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\Chat">
+      <UniqueIdentifier>{3dd223a8-ccfa-4d36-8018-2ccedef12837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Origem\Packets\OnWord\System">
+      <UniqueIdentifier>{e825792a-7ea9-4747-99e5-5142ec5d438d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Basedef.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CPSock.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Arquivos de Origem\Packets\OffWord</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Arquivos de Origem\Packets\OffWord</Filter>
+    </ClCompile>
+    <ClCompile Include="CUser.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientPacketProcess.cpp">
+      <Filter>Arquivos de Origem\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="DBPacketProcess.cpp">
+      <Filter>Arquivos de Origem\Packets</Filter>
+    </ClCompile>
+    <ClCompile Include="CMob.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CNPCGene.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CItem.cpp">
+      <Filter>Arquivos de Origem\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestMovement.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Arquivos de Origem\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="SendFunc.cpp">
+      <Filter>Arquivos de Origem\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessTimers.cpp">
+      <Filter>Arquivos de Origem\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="GetFunc.cpp">
+      <Filter>Arquivos de Origem\Func</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestChangeCity.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestTeleport.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestShopList.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestWitchDep.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Bank</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestMove_Item.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestDelete_Item.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Request_SplitItem.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Request_Chat.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Request_Whisper.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="Request_Attack.cpp">
+      <Filter>Arquivos de Origem\Packets\OnWord\System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Arquivos de Recurso</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Basedef.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CPSock.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ItemEffect.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CUser.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SendFunc.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="GetFunc.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CMob.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CNPCGene.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="CItem.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
